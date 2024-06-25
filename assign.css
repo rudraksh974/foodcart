@@ -1,0 +1,44 @@
+#start{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+#header {
+    background-color:white;
+    color: rgb(130, 126, 126);
+    box-decoration-break: clone;
+    height: 90px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    color:orange;
+    font-family: "Playwrite MX", cursive;
+    font-size:xx-large;
+}
+
+#main {
+    background-image:url(https://img.freepik.com/free-photo/bread-slices-with-topping-tomato-cheese-olives-white-table_23-2148194999.jpg);
+    height: 90vh;
+    background-size: cover;
+    color: black;
+    font-family: "Playwrite MX", cursive;
+    font-size: larger;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.add {
+    background-color: #FFA07A; 
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF; 
+    padding: 10px 20px;
+    border:#FFA07A;
+    border-radius: 5px;
+    padding-left: 10px;
+}
